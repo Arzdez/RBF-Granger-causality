@@ -205,17 +205,3 @@ if __name__ == "__main__":
     granger_parallel(Base_casual , N_centr=11, Tau=100, names="base", step=20000)
     meaner(RD_casual, Base_casual, n_cen=11)
 
-    ''' 
-    for i in range(5,60,2):
-        print("--------------------------------------------------------------------")
-        print(f"ШАГ {i}")
-        #granger_parallel(RD_casual, N_centr=i, Tau=100, names="rd", step=20000)
-        #granger_parallel(Base_casual , N_centr=i, Tau=100, names="base", step=20000)
-        meaner(RD_casual, Base_casual, n_cen = i )
-    '''
-        
-    
-        
-    
-    
-        
